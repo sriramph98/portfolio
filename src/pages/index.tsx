@@ -1,10 +1,7 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import React from 'react'
 
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Work() {
   return (
@@ -34,7 +31,7 @@ export default function Work() {
 
   <div>
 
-    <div class="card">01</div>
+    <div class="card"><img src="../media/work/cms.png"/></div>
 
     <div>
       <div class="cardDescription">

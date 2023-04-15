@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import React from 'react'
+import NavBar from '@/components/navbar'
 
 
 
@@ -18,6 +19,7 @@ export default function AboutMe() {
 <div class="px-4 md:px-40 lg:px-60 ">
 
   <div>
+    
 <p class="bigTitle">About Me</p>
 
 <p class="paragraph">As a User Experience Designer, I bring a unique blend of design and technical skills to the table. With over 3 years of experience in creating intuitive and user-centered designs, I am passionate about improving the way people interact with technology.</p>
