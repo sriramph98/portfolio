@@ -1,8 +1,8 @@
 /* About Me */
 
 import React from 'react'
-import ExperienceCard from '@/components/experienceCard'
-import Divider from '@/components/divider'
+import ExperienceCard from '@ui/experienceCard'
+import Divider from '@ui/divider'
 import {motion} from 'framer-motion'
 
 

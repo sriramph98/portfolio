@@ -22,11 +22,11 @@
  */
 
 .paragraph{
-@apply text-black dark:text-white sm:text-sm md:text-base lg:text-lg 
+@apply text-light-800 dark:text-dark-50 sm:text-sm md:text-base lg:text-lg 
 }
 
 .caption{
-  @apply text-gray-400 dark:text-gray-600 w-full
+  @apply text-light-800 dark:text-dark-300 w-full
 }
 
 .cardBtn{

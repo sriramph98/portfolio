@@ -1,17 +1,18 @@
 import { motion } from "framer-motion"
 import React from "react"
 
-export default function FadeIn() {
 
-  return(
+export default function FadeIn() {
+return(
   <motion.div
-    initial={{ opacity: 0, scale: 0.5 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 0.5 }}
-  >
-    </motion.div>
+    initial={{ y: 100, opacity: 0, scale: 1 }}
+    animate={{ y: 0, opacity: 1, scale: 1 }}
+    transition={{ duration: 0.4 }}
+    />
+
 )
 }
+
 
 
 

@@ -1,4 +1,4 @@
-import NowCard from '@/components/nowCard'
+import NowCard from '@ui/nowCard'
 import React from 'react'
 import {motion} from 'framer-motion'
 

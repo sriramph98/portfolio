@@ -15,7 +15,11 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@work/*": ["./src/media/work/*"],
+      "@now/*": ["./src/media/now/*"],
+      "@animation/*": ["./src/components/animation/*"],
+      "@ui/*": ["./src/components/ui/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/animation/fadeIn.tsx"],

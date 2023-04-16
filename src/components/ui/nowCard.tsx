@@ -1,7 +1,8 @@
 
 import React from 'react'
 import Image from 'next/image'
-import img from '../media/now/design.jpg'
+import img from '@now/design.jpg'
+
 
 export default function NowCard({title,author}: any) {
   return (

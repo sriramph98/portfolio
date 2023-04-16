@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import ProjectDescription from '@/components/projectCard'
-import ProjectCard from '@/components/projectCard'
+import ProjectDescription from '@ui/projectCard'
+import ProjectCard from '@ui/projectCard'
 import {motion} from 'framer-motion'
 
 
@@ -14,8 +14,9 @@ export default function Work() {
 
     <React.Fragment>
       <motion.div initial={{ y:100, opacity: 0, scale: 1 }}
-    animate={{ y:0, opacity: 1, scale: 1 }}
+    animate={{ y:0 , opacity: 1, scale: 1 }}
     transition={{ duration: 0.3 }} >
+      
 
         <div className="px-4 md:px-40 lg:px-60 ">
 

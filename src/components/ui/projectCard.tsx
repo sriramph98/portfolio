@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import img from '../media/work/iphone-show.png'
+import img from '@work/iphone-show.png'
 
 
 export default function ProjectCard({path,title, button, category, year}: any) {
