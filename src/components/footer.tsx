@@ -10,7 +10,7 @@ export default function Footer() {
     <React.Fragment>
 
 <div  className="flex footer">
-<p className="w-full">Designed and developed by Sriram P H</p>
+<p className="w-full">Designed + Code by Sriram P H</p>
 <p className="w-full text-right">2023 © All rights reserved</p>
 
 </div>

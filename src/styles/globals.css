@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 *{
-  font-family: DM Sans;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /* .cardYear{
@@ -14,9 +14,12 @@
 } */
 
 .NavBtn{
-  @apply hover:bg-neutral-800 px-2 py-1 rounded-lg 
+  @apply px-2 py-1 rounded-lg text-black dark:text-white hover:text-gray-300
 }
-
+/* .NavBtn:hover{
+  @apply bg-neutral-800  border-solid border-2 border-neutral-300 dark:border-neutral-600  px-2 py-1 rounded-lg 
+}
+ */
 
 .paragraph{
 @apply text-black dark:text-white sm:text-sm md:text-base lg:text-lg 
@@ -64,7 +67,7 @@
 }
 
 .subtitle{
-  @apply text-black dark:text-white w-full text-3xl py-6 font-bold
+  @apply text-black dark:text-white w-full text-3xl py-2 font-bold
 }
 
 .heading{
@@ -79,6 +82,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --background-rgb: 255,255,255;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -86,6 +90,7 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --background-rgb: 0,0,0;
   }
 }
 
@@ -93,10 +98,5 @@ body {
 display:flex;
 flex-direction:column;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-rgb)) ;
 }
