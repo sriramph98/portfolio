@@ -5,6 +5,7 @@ import Footer  from '@/components/footer'
 import { motion } from "framer-motion"
 
 
+
 export default function portfolio({ Component, pageProps }: AppProps) {
 
   return <>

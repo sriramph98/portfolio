@@ -9,27 +9,27 @@ export default function NavBar() {
 
     <React.Fragment>
 
-<nav class="flex items-center justify-between bg-gradient-to-t from-transparent to-black p-4 sticky top-0">
-  <div class="text-white font-bold">
+<nav className="flex items-center justify-between bg-gradient-to-t from-transparent to-white dark:to-black p-4 sticky top-0">
+  <div className="text-white font-bold">
     <a href="#">Sriram Hemanth</a>
   </div>
 
-  <div class="flex space-x-4">
-    <Link href="/" class="text-white hover:text-gray-300">Work</Link>
-    <Link href="/now" class="text-white hover:text-gray-300">Now</Link>
-    <Link href="/aboutMe" class="text-white hover:text-gray-300">About Me</Link>
+  <div className="bg-neutral-700 bg-opacity-40 backdrop-blur-md rounded-xl p-1 flex space-x-4 ">
+    <Link href="/" className="NavBtn text-white hover:text-gray-300">Work</Link>
+    <Link href="/now" className="NavBtn text-white hover:text-gray-300">Now</Link>
+    <Link href="/aboutMe" className="NavBtn text-white hover:text-gray-300">About Me</Link>
 
   </div>
   
 
-  <div class="flex space-x-4">
-    <a href="mailto:sriramph9812@gmail.com" target="_blank" class="text-white hover:text-gray-300">
+  <div className="flex space-x-4">
+    <a href="mailto:sriramph9812@gmail.com" target="_blank" className="text-white hover:text-gray-300">
       Mail
     </a>
-    <a href="https://twitter.com/sriramph98" target="_blank" class="text-white hover:text-gray-300">
+    <a href="https://twitter.com/sriramph98" target="_blank" className="text-white hover:text-gray-300">
       Instagram
     </a>
-    <a href="https://linkedin.com/in/sriram-ph" target="_blank" class="text-white hover:text-gray-300">
+    <a href="https://linkedin.com/in/sriram-ph" target="_blank" className="text-white hover:text-gray-300">
       LinkedIn
     </a>
   </div>
