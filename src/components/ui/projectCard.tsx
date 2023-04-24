@@ -9,11 +9,11 @@ import PropTypes from 'prop-types';
 
 
 
-export default function ProjectCard({type,colSpan,img,video,title,buttonPath,buttonTitle,category,year}:any) {
-  const [isClient, setIsClient] = useState(false);
+export default function ProjectCard({type,colSpan,media,title,buttonPath,buttonTitle,category,year}:any) {
+  const [showPlayer, setShowPlayer] = useState(false);
 
   useEffect(() => {
-    setIsClient(true);
+   setShowPlayer(true);
   }, []);
 
   if (type === 'image') {
@@ -24,7 +24,7 @@ export default function ProjectCard({type,colSpan,img,video,title,buttonPath,but
               
         <div  className="card">
           
-          <Image src={img} alt="" width={1000} height={1000} style={{position:"relative",objectFit:"contain"}}  />
+          <Image src={media} alt="" width={1000} height={1000} style={{position:"relative",objectFit:"contain"}}  />
         </div>
 
         <div className="py-4">
@@ -47,9 +47,9 @@ export default function ProjectCard({type,colSpan,img,video,title,buttonPath,but
   else if (type === 'video') {
     return (
       <div className={colSpan}>
-        {isClient && (
+        {showPlayer && (
           <div className="card">
-            <ReactPlayer loop={true} muted={true} controls={true} url={video} alt="" fill  /> </div>
+            <ReactPlayer playing={true} loop={true} muted={true} controls={false} url={media} width="100%" height="100%" style={{position:"relative",objectFit:"contain"}} /> </div>
         )}
 
         <div className="py-4">

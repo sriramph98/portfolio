@@ -6,7 +6,7 @@ const contactLinkBtn = cva([], {
   variants: {
     intent: {
       primary: [
-        "hover:text-dark-400",
+        "hover:text-dark-400 hover:cursor-alias",
       ],
     },
     size: {

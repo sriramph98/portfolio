@@ -1,4 +1,4 @@
-[
+[ 
       {
         "id": 1,
         "type": "image",
@@ -53,7 +53,6 @@
       {
         "id": 6,
         "type": "image",
-        
         "mediaPath":"/work/cms.png",
         "title":"Campus Management System",
         "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
@@ -64,7 +63,6 @@
       {
         "id": 7,
         "type": "video",
-        
         "mediaPath":"/work/blend.mp4",
         "title":"Stable Diffusion - Blend",
         "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",

@@ -15,13 +15,19 @@ export default function AboutMe() {
       <SlideInBottom>
       <div>
 
-<div className="px-4 md:px-40 lg:px-60 ">
+<div className="px-4 py-4 md:px-40 lg:px-60 ">
 
   <div>
 
+    <div className='pb-8'>
+
     <p className="bigTitle">About Me</p>
 
-    <p className="paragraph">As a User Experience Designer, I bring a unique blend of design and technical skills to the table. With over 3 years of experience in creating intuitive and user-centered designs, I am passionate about improving the way people interact with technology.</p>
+<p className="paragraph">As a User Experience Designer, I bring a unique blend of design and technical skills to the table. With over 3 years of experience in creating intuitive and user-centered designs, I am passionate about improving the way people interact with technology.</p>
+
+    </div>
+
+ 
 
     {/* Experience & Education */}
 
@@ -63,11 +69,6 @@ export default function AboutMe() {
 
       </div>
 
-    </div>
-<Divider/>
-    <div>
-      <p className="subtitle">Let's create something amazing together!</p>
-      <p className="paragraph">From brainstorming to implementation, I'll be there every step of the way to ensure your vision is achieved. </p>
     </div>
 
   </div>

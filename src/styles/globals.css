@@ -43,7 +43,7 @@
 }
 
 .quote{
-  @apply text-black dark:text-white text-2xl md:text-4xl lg:text-6xl font-normal 
+  @apply text-black dark:text-white text-2xl md:text-4xl lg:text-6xl font-medium 
 }
 
 .bigTitle{

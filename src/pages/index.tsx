@@ -6,7 +6,7 @@ import ProjectDescription from '@ui/projectCard'
 import ProjectCard from '@ui/projectCard'
 import { motion } from 'framer-motion'
 import { FadeIn, SlideInBottom } from '@animation/animation'
-import images from '@components/data.json'
+import images from '@components/work.json'
 
 export default function Work() {
 
@@ -33,7 +33,7 @@ export default function Work() {
         <div>
 
 
-          <div className="px-4 md:px-40 lg:px-60 ">
+          <div className="px-4 md:px-20 lg:px-40 ">
 
 
             <div className='py-8'>
@@ -56,15 +56,15 @@ export default function Work() {
             <p className="bigTitle">Portfolio</p>
 
 
+
+
             <div className="grid grid-cols-2 gap-16 py-6">
               {
                 imagesArr.map(item => (
-                  <ProjectCard type={item.type} img={item.mediaPath} colSpan={item.colSpan} title={item.title} buttonTitle={item.buttonTitle} buttonPath={item.buttonPath} category={item.category} year={item.year} />
+                  <ProjectCard type={item.type} media={item.mediaPath} colSpan={item.colSpan} title={item.title} buttonTitle={item.buttonTitle} buttonPath={item.buttonPath} category={item.category} year={item.year} />
                 ))
 
               }
-
-
 
             </div>
 
