@@ -18,10 +18,11 @@
       "@/*": ["./src/*"],
       "@work/*": ["./src/media/work/*"],
       "@now/*": ["./src/media/now/*"],
+      "@components/*": ["./src/components/*"],
       "@animation/*": ["./src/components/animation/*"],
       "@ui/*": ["./src/components/ui/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/animation/fadeIn.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/animation/animation.tsx"],
   "exclude": ["node_modules"]
 }

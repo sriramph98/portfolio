@@ -1,0 +1,87 @@
+[
+      {
+        "id": 1,
+        "type": "image",
+        "mediaPath":"/work/iphone-show.png",
+        "title":"iOS Application",
+        "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
+        "buttonTitle":"Explore",
+        "category":"Zoho Show",
+        "year":"2021 - 2023"
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "mediaPath":"/work/ipad.png",
+        "title":"iPad Application",
+        "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
+        "buttonTitle":"Explore",
+        "category":"Zoho Show",
+        "year":"2021 - 2023"
+      },
+      {
+        "id": 3,
+        "type": "image",
+        "mediaPath":"/work/websites.png",
+        "title":"Websites",
+        "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
+        "buttonTitle":"Explore",
+        "category":"Zoho Show",
+        "year":"2021 - 2023"
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "mediaPath":"/work/filters-vani.png",
+        "title":"Color Overlays",
+        "buttonPath":"https://www.vanihq.com/catchups.html",
+        "buttonTitle":"Explore",
+        "category":"Vani",
+        "year":"2022"
+      },
+      {
+        "id": 5,
+        "type": "image",
+        "colSpan":"col-span-2",
+        "mediaPath":"/work/appleTV.png",
+        "title":"Apple TV Application",
+        "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
+        "buttonTitle":"View in App Store",
+        "category":"Zoho Show",
+        "year":"2023"
+      },
+      {
+        "id": 6,
+        "type": "image",
+        
+        "mediaPath":"/work/cms.png",
+        "title":"Campus Management System",
+        "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
+        "buttonTitle":"Explore",
+        "category":"Concept",
+        "year":"2018"
+      },
+      {
+        "id": 7,
+        "type": "video",
+        
+        "mediaPath":"/work/blend.mp4",
+        "title":"Stable Diffusion - Blend",
+        "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
+        "buttonTitle":"Explore",
+        "category":"Concept",
+        "year":"2023"
+      },
+      {
+        "id": 8,
+        "type": "video",
+        "colSpan":"col-span-2",
+        "mediaPath":"/work/streetViewNavigation.mp4",
+        "title":"Street View Navigation|Eye Ball Tracking",
+        "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
+        "buttonTitle":"Explore",
+        "category":"Concept - Mixed Reality",
+        "year":"2023"
+      }
+
+]

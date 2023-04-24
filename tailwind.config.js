@@ -56,7 +56,7 @@ module.exports = {
       },
       fontFamily:{
         dmsans: ['DM Sans'],
-        dmmono: ['DM Mono']
+        dmmono: ['DM Mono'],
       },
     },
   },

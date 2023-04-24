@@ -1,6 +1,7 @@
 import NowCard from '@ui/nowCard'
 import React from 'react'
 import {motion} from 'framer-motion'
+import { SlideInBottom } from '@/components/animation/animation'
 
 
 
@@ -9,16 +10,15 @@ export default function Now() {
 
     <React.Fragment>
 
-      <motion.div initial={{ y:100, opacity: 0, scale: 1 }}
-    animate={{ y:0, opacity: 1, scale: 1 }}
-    transition={{ duration: 0.3 }}>
+      <SlideInBottom>
+      <div>
 
-        <div className="px-4 md:px-40 lg:px-60 ">
+<div className="px-4 md:px-40 lg:px-60 ">
 
-          <p className="bigTitle">Now</p>
-          <p>Inspired by Derek Sivers</p>
-          <p className="paragraph py-2">Currently, I'm focused on enhancing my design skills and strategy. I'm constantly exploring new techniques and tools to improve my craft. Apart from work, I've made a personal goal to read more books this year, and I'm excited to dive into some inspiring design and technology literature.</p>
-          <p className="footnote">Last updated February 2023</p>
+  <p className="bigTitle">Now</p>
+  <p>Inspired by Derek Sivers</p>
+  <p className="paragraph py-2">Currently, I'm focused on enhancing my design skills and strategy. I'm constantly exploring new techniques and tools to improve my craft. Apart from work, I've made a personal goal to read more books this year, and I'm excited to dive into some inspiring design and technology literature.</p>
+  <p className="footnote">Last updated February 2023</p>
 
 <div>
 
@@ -96,12 +96,16 @@ export default function Now() {
 
 
 
-</motion.div>
+</div>
 
 
 
 
 
+
+      </SlideInBottom>
+
+     
 
         
       
