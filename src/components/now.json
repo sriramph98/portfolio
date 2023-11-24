@@ -1,0 +1,53 @@
+{
+    "reading": [
+        {   "id": 1,
+            "title": "Roots",
+            "author": "Alex Haley",
+            "imagePath": "/now/roots.jpg"
+        },
+        {
+            "id": 2,
+            "title": "The Design of Everyday Things",
+            "author": "Don Norman",
+            "imagePath": "/now/design.jpg"
+        }
+    ],
+    "listening": [
+        {
+            "id": 3,
+            "title": "Love, Damini",
+            "author": "Bruna Boy",
+            "imagePath": "/now/burna.png"
+        },
+        {
+            "id": 4,
+            "title": "Harry's House",
+            "author": "Harry Styles",
+            "imagePath": "/now/harry.jpeg.webp"
+        }
+    ],
+    "watching": [
+        {
+            "id": 5,
+            "title": "Euphoria",
+            "imagePath": "/now/euphoria.jpeg"
+        },
+        {
+            "id": 6,
+            "title": "Mindhunter",
+            "imagePath": "/now/mindhunter.jpg.webp"
+        }
+    ],
+    "playing": [
+        {
+            "id": 7,
+            "title": "Horizon: Forbidden West",
+            "imagePath": "/now/horizon.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Yakuza 0",
+            "imagePath": "/now/yakuza.png.webp"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "experience": [
+        {
+            "id": 1,
+            "company": "Zoho Corporation",
+            "designation": "UI Designer",
+            "fromYear": "2021",
+            "toYear": "2023",
+            "description": "Collaborated with cross-functional teams to design user interfaces for iOS, iPadOS, Apple TV, macOS apps, and websites. My focus was to enhance the user experience, resulting in an improved product."
+        },
+        {
+            "id": 2,
+            "company": "Campus Avenue",
+            "designation": "Intern | UX Designer",
+            "fromYear": "Oct '18 ",
+            "toYear": "Dec '18",
+            "description": "Developed the user experience for an EduTech application, which was extensively used for pitching the product to potential stakeholders."
+        },
+            {
+            "id": 3,
+            "company": "One More Rep",
+            "designation": "Freelance | Video Editor",
+            "fromYear": "Oct '18 ",
+            "toYear": "Dec '18",
+            "description": "Worked closely with the production team to ensure that the videos were edited to a high standard and met the desired objectives. This included selecting appropriate music, adding graphics and special effects, and ensuring that the videos were consistent in terms of tone and style."
+        },
+            {
+            "id": 3,
+            "company": "Sri Venkateswara College of Engineering",
+            "designation": "Student Volunteer            ",
+            "fromYear": "Sept '18 ",
+            "toYear": "Sep '20",
+            "description": "Created a series of posters and other publicity materials that helped promote the event and drew in a huge crowd. From brainstorming concepts to selecting the perfect color schemes and typography, I loved every aspect of the design process"
+        }
+    ],
+    "education": [
+        {
+            "id": 4,
+            "company": "Indiana University Bloomington",
+            "designation": "Incoming Student (HCI/d)",
+            "fromYear": "2023",
+            "toYear": "2025"
+        },
+        {
+            "id": 5,
+            "company": "Sri Venkateswara College of Engineering ",
+            "designation": "B.E in Computer Science Engineering ",
+            "fromYear": "2016",
+            "toYear": "2020"
+        },
+        {
+            "id": 6,
+            "company": "KRM Public School ",
+            "designation": "Higher Secondary in Science ",
+            "fromYear": "2014",
+            "toYear": "2016"
+        }
+    ]
+}

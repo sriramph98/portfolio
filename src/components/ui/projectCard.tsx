@@ -1,15 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Image, { StaticImageData } from 'next/image';
 import ReactPlayer from 'react-player';
-import PropTypes from 'prop-types';
 
-/* ProjectCard.propTypes = {
-  type: PropTypes.oneOf(['image', 'video']).isRequired,
-}; */
-
-
-
-export default function ProjectCard({type,colSpan,media,title,buttonPath,buttonTitle,category,year}:any) {
+export default function ProjectCard({colSpan,type,media,title,buttonPath,buttonTitle,category,year}:any) {
   const [showPlayer, setShowPlayer] = useState(false);
 
   useEffect(() => {
@@ -17,6 +10,8 @@ export default function ProjectCard({type,colSpan,media,title,buttonPath,buttonT
   }, []);
 
   if (type === 'image') {
+
+    
     return (
 
       

@@ -15,7 +15,7 @@
 }
 
 .NavBtn{
-  @apply px-2 py-1 rounded-lg text-black dark:text-white hover:text-gray-300
+  @apply px-2 py-0.5 rounded-lg border-2 border-transparent text-black dark:text-white focus:bg-dark-950  focus:border-2 focus:border-dark-700 transition duration-200  ease-in
 }
 /* .NavBtn:hover{
   @apply bg-neutral-800  border-solid border-2 border-neutral-300 dark:border-neutral-600  px-2 py-1 rounded-lg 
@@ -23,7 +23,7 @@
  */
 
 .paragraph{
-@apply text-light-800 dark:text-dark-50 sm:text-sm md:text-base lg:text-lg 
+@apply text-light-800 dark:text-dark-200 sm:text-sm md:text-base lg:text-lg 
 }
 
 .caption{
@@ -31,11 +31,11 @@
 }
 
 .cardBtn{
-  @apply bg-black dark:bg-white text-sm w-52 
+  @apply bg-black dark:bg-white text-sm h-fit hover:bg-white hover:dark:bg-black border hover:border-light-700 hover:dark:border-dark-700
 }
 
 .cardBtnText{
-  @apply text-white dark:text-black py-1 px-4 rounded-full
+  @apply text-white dark:text-black py-1 px-4 rounded-full hover:text-black hover:dark:text-white
 }
 
 .cardProduct{

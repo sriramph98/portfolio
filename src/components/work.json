@@ -2,6 +2,7 @@
       {
         "id": 1,
         "type": "image",
+        "colSpan":"col-span-1",
         "mediaPath":"/work/iphone-show.png",
         "title":"iOS Application",
         "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
@@ -12,6 +13,7 @@
       {
         "id": 2,
         "type": "image",
+        "colSpan":"col-span-1",
         "mediaPath":"/work/ipad.png",
         "title":"iPad Application",
         "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
@@ -22,6 +24,7 @@
       {
         "id": 3,
         "type": "image",
+        "colSpan":"col-span-1",
         "mediaPath":"/work/websites.png",
         "title":"Websites",
         "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
@@ -32,6 +35,7 @@
       {
         "id": 4,
         "type": "image",
+        "colSpan":"col-span-1",
         "mediaPath":"/work/filters-vani.png",
         "title":"Color Overlays",
         "buttonPath":"https://www.vanihq.com/catchups.html",
@@ -53,6 +57,7 @@
       {
         "id": 6,
         "type": "image",
+        "colSpan":"col-span-1",
         "mediaPath":"/work/cms.png",
         "title":"Campus Management System",
         "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
@@ -63,6 +68,7 @@
       {
         "id": 7,
         "type": "video",
+        "colSpan":"col-span-1",
         "mediaPath":"/work/blend.mp4",
         "title":"Stable Diffusion - Blend",
         "buttonPath":"https://apps.apple.com/in/app/zoho-show-presentation-maker/id1309156447",
